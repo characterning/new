@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #333;
+}
+#tag{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width:100%;
+    border-bottom:1px solid #ccc;
+    z-index:10;
+    background:#fff;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+header>nav{
+    width:100%;
+    height:2px;
+    background:-webkit-linear-gradient(left,#ec66e9,#efd655);
+}
+.nav{
+    width:100%;
+}
+.nav>.navcontent{
+    padding:15px 0px;
+    width:1110px;
+    margin:0 auto;
+    display:flex;
+}
+.nav>.navcontent>img{
+    display:block;
+    width:135px;
+    height:33.5px;
+    margin-right:70px;
+}
+.nav>.navcontent>ul{
+    display:flex;
+    list-style:none;
+}
+.nav>.navcontent>.navtext>li{
+    padding:10px 0px;
+    margin-left:35px;
+}
+.nav>.navcontent>.navtext>li:first-child>a{
+    color: red;
+}
+.nav>.navcontent>.navtext>li>a{
+    text-decoration:none;
+    color:#000;
+    font-size:15px;
+}
+.content{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    margin-top: 50px;
+}
+.hosttaglist{
+    width: 1100px;
+    margin:80px auto 0;
+}
+.hosttaglist>a{
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 17px;
+    margin-bottom: 24px;
+    color: #6b6b6b;
+    border-right: 1px solid #6d6d6d
+}
+#gotop{
+    width: 55px;
+    height: 45px;
+    background: rgba(0,0,0,.3);
+    bottom: 54px;
+    background-image: url(//static.17getfun.com/2017s3/image/publish/index2/dirImg.png);
+    background-repeat: no-repeat;
+    background-position: 11px -190px;
+    transition: all .5s ease;
+    cursor:pointer;
+    position: fixed;
+    right: 0;
+    bottom:64px;
+    z-index:1111;
+}
